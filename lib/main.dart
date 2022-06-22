@@ -38,10 +38,7 @@ class HomeWorkState extends State<HomeWork> {
           mainAxisAlignment: MainAxisAlignment.center,
           children: <Widget>[
             Container(
-              color: Colors.black54,
               padding: EdgeInsets.fromLTRB(50, 25, 50, 25),
-              width: MediaQuery.of(context).size.width,
-              height: 150,
               child: Image.network(
                 choose,
                 height: 150,
